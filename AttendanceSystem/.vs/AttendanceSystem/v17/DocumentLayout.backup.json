@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C# Project\\Attendances-Project\\AttendanceSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5D51CC88-AA64-4804-BC79-3DDFFF40EED9}|AttendanceSystem\\AttendanceSystem.csproj|d:\\c# project\\attendances-project\\attendancesystem\\attendancesystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D51CC88-AA64-4804-BC79-3DDFFF40EED9}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D51CC88-AA64-4804-BC79-3DDFFF40EED9}|AttendanceSystem\\AttendanceSystem.csproj|d:\\c# project\\attendances-project\\attendancesystem\\attendancesystem\\courseuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D51CC88-AA64-4804-BC79-3DDFFF40EED9}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\courseuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D51CC88-AA64-4804-BC79-3DDFFF40EED9}|AttendanceSystem\\AttendanceSystem.csproj|d:\\c# project\\attendances-project\\attendancesystem\\attendancesystem\\attendancecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D51CC88-AA64-4804-BC79-3DDFFF40EED9}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\attendancecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D51CC88-AA64-4804-BC79-3DDFFF40EED9}|AttendanceSystem\\AttendanceSystem.csproj|d:\\c# project\\attendances-project\\attendancesystem\\attendancesystem\\coursestudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D51CC88-AA64-4804-BC79-3DDFFF40EED9}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\coursestudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D51CC88-AA64-4804-BC79-3DDFFF40EED9}|AttendanceSystem\\AttendanceSystem.csproj|d:\\c# project\\attendances-project\\attendancesystem\\attendancesystem\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D51CC88-AA64-4804-BC79-3DDFFF40EED9}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D51CC88-AA64-4804-BC79-3DDFFF40EED9}|AttendanceSystem\\AttendanceSystem.csproj|d:\\c# project\\attendances-project\\attendancesystem\\attendancesystem\\classschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D51CC88-AA64-4804-BC79-3DDFFF40EED9}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\classschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D51CC88-AA64-4804-BC79-3DDFFF40EED9}|AttendanceSystem\\AttendanceSystem.csproj|d:\\c# project\\attendances-project\\attendancesystem\\attendancesystem\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D51CC88-AA64-4804-BC79-3DDFFF40EED9}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Course.cs",
+              "DocumentMoniker": "D:\\C# Project\\Attendances-Project\\AttendanceSystem\\AttendanceSystem\\Course.cs",
+              "RelativeDocumentMoniker": "AttendanceSystem\\Course.cs",
+              "ToolTip": "D:\\C# Project\\Attendances-Project\\AttendanceSystem\\AttendanceSystem\\Course.cs",
+              "RelativeToolTip": "AttendanceSystem\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T18:12:14.791Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClassSchedule.cs",
+              "DocumentMoniker": "D:\\C# Project\\Attendances-Project\\AttendanceSystem\\AttendanceSystem\\ClassSchedule.cs",
+              "RelativeDocumentMoniker": "AttendanceSystem\\ClassSchedule.cs",
+              "ToolTip": "D:\\C# Project\\Attendances-Project\\AttendanceSystem\\AttendanceSystem\\ClassSchedule.cs",
+              "RelativeToolTip": "AttendanceSystem\\ClassSchedule.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T18:13:25.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Attendance.cs",
+              "DocumentMoniker": "D:\\C# Project\\Attendances-Project\\AttendanceSystem\\AttendanceSystem\\Attendance.cs",
+              "RelativeDocumentMoniker": "AttendanceSystem\\Attendance.cs",
+              "ToolTip": "D:\\C# Project\\Attendances-Project\\AttendanceSystem\\AttendanceSystem\\Attendance.cs",
+              "RelativeToolTip": "AttendanceSystem\\Attendance.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAADwvxMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T18:14:42.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CourseStudent.cs",
+              "DocumentMoniker": "D:\\C# Project\\Attendances-Project\\AttendanceSystem\\AttendanceSystem\\CourseStudent.cs",
+              "RelativeDocumentMoniker": "AttendanceSystem\\CourseStudent.cs",
+              "ToolTip": "D:\\C# Project\\Attendances-Project\\AttendanceSystem\\AttendanceSystem\\CourseStudent.cs",
+              "RelativeToolTip": "AttendanceSystem\\CourseStudent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T18:10:57.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AttendanceContext.cs",
+              "DocumentMoniker": "D:\\C# Project\\Attendances-Project\\AttendanceSystem\\AttendanceSystem\\AttendanceContext.cs",
+              "RelativeDocumentMoniker": "AttendanceSystem\\AttendanceContext.cs",
+              "ToolTip": "D:\\C# Project\\Attendances-Project\\AttendanceSystem\\AttendanceSystem\\AttendanceContext.cs",
+              "RelativeToolTip": "AttendanceSystem\\AttendanceContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T17:43:05.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C# Project\\Attendances-Project\\AttendanceSystem\\AttendanceSystem\\Program.cs",
+              "RelativeDocumentMoniker": "AttendanceSystem\\Program.cs",
+              "ToolTip": "D:\\C# Project\\Attendances-Project\\AttendanceSystem\\AttendanceSystem\\Program.cs",
+              "RelativeToolTip": "AttendanceSystem\\Program.cs",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAYwNkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T17:31:37.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CourseUser.cs",
+              "DocumentMoniker": "D:\\C# Project\\Attendances-Project\\AttendanceSystem\\AttendanceSystem\\CourseUser.cs",
+              "RelativeDocumentMoniker": "AttendanceSystem\\CourseUser.cs",
+              "ToolTip": "D:\\C# Project\\Attendances-Project\\AttendanceSystem\\AttendanceSystem\\CourseUser.cs",
+              "RelativeToolTip": "AttendanceSystem\\CourseUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T17:37:57.004Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
