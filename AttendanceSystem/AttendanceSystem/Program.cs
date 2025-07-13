@@ -209,7 +209,8 @@ void TeacherMenu (AttendanceContext context, CourseUser teacher)
                 var attendance = context.Attendances.Include(a => a.Student).Where(a => a.CourseId == courseid).ToList();
                 var attendances = attendance.Where(a => a.ClassDate.DayOfWeek == DateTime.Now.DayOfWeek).ToList();
                 var attend = attendances.Where(a => a.ClassDate.Date == today).ToList();
-                
+                int total = attend.Count();
+                Console.WriteLine($"Total attendances: {total}");
                 foreach (var a in attend)
                 {
                     Console.WriteLine($"{a.Student.Name}");
