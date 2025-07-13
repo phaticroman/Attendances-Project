@@ -255,19 +255,35 @@ void StudentMenu(AttendanceContext context, CourseUser student)
                 {
                     Console.WriteLine("There Are No Class Today");
                 }
+                else if (now < schedule.EndTime || now < schedule.StartTime)
+                {
+                    Console.WriteLine("You can only give attendance during class time.");
+                    return;
+                }
                 else
                 {
-                    var attendance = new Attendance
+                    var alreadyMarked = context.Attendances.Any(a => a.StudentId == student.Id && a.CourseId == courseid && a.ClassDate.Date == Today.Date);
+
+                    if (alreadyMarked)
                     {
-                        StudentId = student.Id,
-                        CourseId = courseid,
-                        ClassDate = Today,
-                        IsPresent = true,
-                    };
-                    context.Attendances.Add(attendance);
-                    context.SaveChanges();
-                    Console.WriteLine("Attendance Save SuccessFully ");
+                        Console.WriteLine("You have already given attendance today.");
+                    }
+                    else
+                    {
+                        var attendance = new Attendance
+                        {
+                            StudentId = student.Id,
+                            CourseId = courseid,
+                            ClassDate = Today,
+                            IsPresent = true,
+                        };
+                        context.Attendances.Add(attendance);
+                        context.SaveChanges();
+                        Console.WriteLine("Attendance Save SuccessFully ");
+                    }
+
                 }
+                
             }
         }
         else
