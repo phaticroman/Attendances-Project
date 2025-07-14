@@ -11,6 +11,8 @@ using (var context = new AttendanceContext())
 
         Console.Write("Username: ");
         string username = Console.ReadLine();
+        
+        
         Console.Write("Password: ");
         string password = Console.ReadLine();
         var user = context.CourseUsers.FirstOrDefault(u => u.Username == username && u.Password == password);
@@ -86,18 +88,28 @@ void CreateUser(AttendanceContext context,string Role)
     string name = Console.ReadLine();
     Console.Write("Enter UserName:");
     string username = Console.ReadLine();
-    Console.Write("Enter Password:");
-    string password = Console.ReadLine();
-    var user = new CourseUser
+    bool exists = context.CourseUsers.Any(p => p.Username == username);
+    if(exists)
     {
-        Name = name,
-        Username = username,
-        Password = password,
-        Role = Role,
-    };
-    context.CourseUsers.Add(user);
-    context.SaveChanges();
-    Console.WriteLine("Account Created SuccessFully");
+        Console.WriteLine("Username Already Taken! Try Another Name!");
+        return;
+    }
+    else
+    {
+        Console.Write("Enter Password:");
+        string password = Console.ReadLine();
+        var user = new CourseUser
+        {
+            Name = name,
+            Username = username,
+            Password = password,
+            Role = Role,
+        };
+        context.CourseUsers.Add(user);
+        context.SaveChanges();
+        Console.WriteLine("Account Created SuccessFully");
+    }
+    
 
 }
 void CreateCourse (AttendanceContext context)
